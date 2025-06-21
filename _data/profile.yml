@@ -88,6 +88,12 @@ accepted:
     logo: /assets/images/badges/VinUni_logo.png
     date: 2020
 
+award:
+  - name: Singapore Pre-Graduate Award (SIPGA)
+    date: 2024
+  - name: Dean's List Award
+    date: 2022
+
 # rejected:
 #   - name: NeurIPS
 #     logo: /assets/images/badges/logo_neurips.png
@@ -98,12 +104,3 @@ accepted:
 #   - name: CVPR
 #     logo: /assets/images/badges/CVPR_logo.jpg
 #     date: 2025
-
-# Optional: Add research section if your page supports it
-# research:
-#   - title: SmallPlan: Leverage Small Language Models for Sequential Path Planning
-#     link: https://arxiv.org/abs/2505.00831
-#     venue: arXiv, 2025
-#   - title: Survey and Evaluation of Adversarial Attacks for Object Detection
-#     link: https://ieeexplore.ieee.org/document/10988892
-#     venue: IEEE TNNLS, 2025
