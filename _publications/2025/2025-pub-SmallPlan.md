@@ -1,6 +1,6 @@
 ---
 title:          "SmallPlan: Leverage Small Language Models for Sequential Path Planning with Simulation-Powered, LLM-Guided Distillation"
-date:           2025-05-01 00:01:00 +0800
+date:           2025-05-11 00:01:00 +0800
 selected:       true
 pub_pre:        "Submitted to 2025 CoRL"
 abstract: >-
