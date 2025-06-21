@@ -17,10 +17,11 @@ linkedin: khointn
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a recent graduate in Computer Science from <a href="https://vinuni.edu.vn" target="_blank">VinUniversity</a>, where I focused on artificial intelligence and research at the intersection of machine learning and robotics.
+    I'm an AI Engineer at BioTuring, and a self-motivated researcher.
   </p>
   <p>
-    I’ve worked on research projects related to small language models, adversarial robustness, scene graph neural networks, and AI-driven path planning. I’ve published works on <a href="https://arxiv.org/abs/2505.00831" target="_blank">LLM-guided distillation</a> and <a href="https://ieeexplore.ieee.org/document/10988892" target="_blank">adversarial attacks</a> in top venues. I also interned at <a href="https://www.a-star.edu.sg" target="_blank">A*STAR Singapore</a> and contributed to production AI systems at <a href="https://coccoc.com/" target="_blank">Cốc Cốc</a> impacting millions of users.
+   I previously worked as a data scientist at Cốc Cốc (Vietnam), where I developed ML models and optimized product features, impacting 30M monthly users with 600M search queries/month.
+   I was also a research intern at A*STAR (Singapore), and a research assistant at VinUniversity (Vietnam). My research topics included applied NLP, scene understanding, adversarial robustness, and multi-agent LLMs/SLMs for resource-constrained tasks.
   </p>
 
 portrait_url: /assets/images/photos/portrait.png
@@ -51,30 +52,30 @@ education:
     B.Sc. in Computer Science, Minor in Finance
   date: Aug. 2020 – Jun. 2024
 
-accepted:
-  - name: A*STAR Singapore
-    logo: /assets/images/badges/astar_logo.png
-    date: 2024
-  - name: Cốc Cốc
-    logo: /assets/images/badges/coccoc_logo.png
-    date: 2024
-  - name: University of Technology Sydneys
-    logo: /assets/images/badges/uts_logo.png
-    date: 2024
-  - name: VinUniversity
-    logo: /assets/images/badges/VinUni_logo.png
-    date: 2020
+# accepted:
+#   - name: A*STAR Singapore
+#     logo: /assets/images/badges/astar_logo.png
+#     date: 2024
+#   - name: Cốc Cốc
+#     logo: /assets/images/badges/coccoc_logo.png
+#     date: 2024
+#   - name: University of Technology Sydneys
+#     logo: /assets/images/badges/uts_logo.png
+#     date: 2024
+#   - name: VinUniversity
+#     logo: /assets/images/badges/VinUni_logo.png
+#     date: 2020
 
-rejected:
-  - name: NeurIPS
-    logo: /assets/images/badges/logo_neurips.png
-    date: 2024
-  - name: IROS
-    logo: /assets/images/badges/iros25_logo.png
-    date: 2025
-  - name: CVPR
-    logo: /assets/images/badges/CVPR_logo.jpg
-    date: 2025
+# rejected:
+#   - name: NeurIPS
+#     logo: /assets/images/badges/logo_neurips.png
+#     date: 2024
+#   - name: IROS
+#     logo: /assets/images/badges/iros25_logo.png
+#     date: 2025
+#   - name: CVPR
+#     logo: /assets/images/badges/CVPR_logo.jpg
+#     date: 2025
 
 # Optional: Add research section if your page supports it
 # research:
