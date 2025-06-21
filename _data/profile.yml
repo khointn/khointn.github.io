@@ -17,19 +17,22 @@ linkedin: khointn
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I'm an AI Engineer at BioTuring, and a self-motivated researcher. 
+    Upcoming AI Engineer at BioTuring, and a self-motivated researcher. 
   </p>
   <p>
    I previously worked as a Data Scientist at Cốc Cốc, the only Vietnamese search engine and browser. 
-   I developed ML models and optimized product features to impact 30M monthly users with 600M search queries/month. During my time at Cốc Cốc, I contributed 3 services for Cốc Cốc AI Answer feature, and 1 service for Cốc Cốc SERP feature.
+   I developed ML models and optimized product features to impact 30M monthly users with 600M search queries/month. I contributed 3 services for Cốc Cốc AI Answer feature, and 1 service for Cốc Cốc SERP feature.
   </p>
   <p>
-   I was a research intern at A*STAR Singapore, researched on adversarial robustness. I first-authored a research publication at IEEE TNNLS (Q1). I worked under the supervision of  <a href="https://scholar.google.com/citations?user=yJpx_WoAAAAJ&hl=en" target="_blank">Dr. Zhang Wenyu</a>.
+   I was a research intern at A*STAR Singapore, researched on adversarial robustness. 
+   I first-authored a research publication at IEEE TNNLS (Q1). 
+   I worked under the supervision of  <a href="https://scholar.google.com/citations?user=yJpx_WoAAAAJ&hl=en" target="_blank">Dr. Zhang Wenyu</a>.
   </p>
   <p>
-   I was a research assistant at VinUniversity Vietnam, researched on scene understanding and and multi-agent LLMs/SLMs for resource-constrained tasks. 
+   I was a research assistant at VinUniversity Vietnam, researched on scene understanding and language models (LLMs/SLMs) for resource-constrained tasks. 
    I contributed to several research publications as co-first author, collaborated with researchers from UAB, USA and MBZUAI, UAE.
    I worked under the supervision of  <a href="https://scholar.google.com/citations?user=CCQ6CH4AAAAJ&hl=en" target="_blank">Professor Do Tho Truong</a>.
+   My co-authors included Professor <a href="https://scholar.google.com/citations?user=jdSlREMAAAAJ&hl=en" target="_blank">Professor Dezhen Song, MBZUAI</a>, and <a href="https://scholar.google.com/citations?user=JiKBo6UAAAAJ&hl=en" target="_blank">Professor Hy Truong Son, UAB</a>
   </>
 
 portrait_url: /assets/images/photos/portrait.png
@@ -57,8 +60,9 @@ education:
   logo: /assets/images/badges/VinUni_logo.png
   position: >-
     College of Engineering and Computer Science <br/>
-    B.Sc. in Computer Science, Minor in Finance
-  date: Aug. 2020 – Jun. 2024
+    B.Sc. in Computer Science, Artificial Intelligence Concentration <br/>
+    Minor in Finance
+  date: 2020 – 2024
 
 # accepted:
 #   - name: A*STAR Singapore
