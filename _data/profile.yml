@@ -77,22 +77,25 @@ education:
     Minor in Finance
   date: 2020 – 2024
 
-accepted:
-  - name: A*STAR Singapore
-    logo: /assets/images/badges/astar_logo.png
-    date: 2024
-  - name: University of Technology Sydney (UTS)
-    logo: /assets/images/badges/uts_logo.png
-    date: 2024
-  - name: VinUniversity
-    logo: /assets/images/badges/VinUni_logo.png
-    date: 2020
-
 awards:
   - name: Singapore Pre-Graduate Award (SIPGA)
     date: 2024
   - name: Dean's List Award
     date: 2022
+
+# accepted:
+#   - name: TNNLS
+#     logo: /assets/images/badges/tnnls_logo.png
+#     date: 2025
+#   - name: A*STAR Singapore
+#     logo: /assets/images/badges/astar_logo.png
+#     date: 2024
+#   - name: University of Technology Sydney (UTS)
+#     logo: /assets/images/badges/uts_logo.png
+#     date: 2024
+#   - name: VinUniversity
+#     logo: /assets/images/badges/VinUni_logo.png
+#     date: 2020
 
 # rejected:
 #   - name: NeurIPS

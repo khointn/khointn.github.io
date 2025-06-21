@@ -29,36 +29,6 @@
                     </div>
                     {% endif %}
 
-                    {% if site.data.profile.rejected %}
-                    <div class="col-md-6">
-                        <div class="mx-2 my-1">
-                            <h6>I was rejected by</h6>
-                            <ul class="list-unstyled mb-1 d-flex flex-wrap align-items-center">
-                                {% for item in site.data.profile.rejected %}
-                                <li class="media mb-1 mr-2" style="display: inline-block;">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" title="{{ item.name }}" style="width: 32px; height: 32px; object-fit: contain; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.07);">
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                    {% endif %}
-
-                    {% if site.data.profile.accepted %}
-                    <div class="col-md-6">
-                        <div class="mx-2 my-1">
-                            <h6>I was accepted by</h6>
-                            <ul class="list-unstyled mb-1 d-flex flex-wrap align-items-center">
-                                {% for item in site.data.profile.accepted %}
-                                <li class="media mb-1 mr-2" style="display: inline-block;">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" title="{{ item.name }}" style="width: 32px; height: 32px; object-fit: contain; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.07);">
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                    {% endif %}
-
                     {% if site.data.profile.awards %}
                     <div class="col-md-6">
                         <div class="mx-2 my-1">
