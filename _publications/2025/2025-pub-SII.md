@@ -4,7 +4,7 @@ date:           2025-01-21 00:01:00 +0800
 selected:       false
 pub:            "2025 IEEE/SICE International Symposium on System Integration SII"
 abstract: >-
-  BERT-based nature language command navigation.
+  We propose a cost-effective, on-device BERT-based natural language navigation system that enables robots to interpret human commands into goals. The system is designed for deployment on lightweight embedded computers and updates without requiring model retraining, ensuring scalability and flexibility. 
 cover:          /assets/images/covers/SII.png
 authors:
   - "Tung T Ngo"

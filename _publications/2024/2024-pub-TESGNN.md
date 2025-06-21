@@ -4,7 +4,7 @@ date:           2024-11-15 00:01:00 +0800
 selected:       true
 # pub_pre:        "Submitted to 2025 IROS"
 abstract: >-
-  An improve of ESGNN with temporal layer making the generated graph can evolute over times.
+  Leveraging from ESGNN, we propose an incremental temporal architecture to fuse local scene graphs into a single global graph representation.  
 cover:          /assets/images/covers/TESGNN.jpg
 authors:
   - quangppm

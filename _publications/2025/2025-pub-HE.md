@@ -8,7 +8,7 @@ abstract: >-
 cover:          /assets/images/covers/TNNLS.jpeg
 authors:
   - khointn
-  - "Wenyu Zhang"
+  - zhangwenyu
   - "Kangkang Lu"
   - "Yu-Huan Wu"
   - "Xingjian Zheng"
