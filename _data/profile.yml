@@ -13,9 +13,6 @@ cv_link: /assets/docs/CV_KhoiNguyen.pdf
 gscholar: a-W86AcAAAAJ
 github: khointn
 linkedin: khointn
-wechat_qrcode: /assets/images/wechat.jpeg
-wechat_prompt: >-
-  Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
 
 short_bio_text_justify: false
 short_bio: >-
@@ -40,13 +37,13 @@ experience:
   - name: BioTuring
     logo: /assets/images/badges/bioturing_logo.png
     position: AI Engineer (onboarding)
-    date: Jul. 2025 – Present
-  - name: Cốc Cốc
+    date: Jul. 2025 start
+  - name: Cốc Cốc Browser & Search Engine
     logo: /assets/images/badges/coccoc_logo.png
     position: Data Scientist
     date: Aug. 2024 – Jul. 2025
   - name: VinUni-UIUC Smart Health Center
-    logo: /assets/images/badges/vishc_logo.png
+    logo: /assets/images/badges/VinUni_logo.png
     position: Research Assistant
     date: Dec. 2022 – Dec. 2024
   - name: A*STAR Singapore
