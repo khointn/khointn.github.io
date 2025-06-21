@@ -1,18 +1,26 @@
-# Authors
+"quangppm":
+  name: Quang Pham Phuoc Minh
+  bold: true
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+"khointn":
+  name: Khoi Nguyen Tiet Nguyen
+  url: https://scholar.google.com/citations?user=a-W86AcAAAAJ
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+"lan":
+  name: Lan Ngo Chi
+
+"truongdo":
+  name: Truong Do Tho
+  url: https://scholar.google.com/citations?user=CCQ6CH4AAAAJ
+
+"hyson":
+  name: Truong-Son Hy,
+  url: https://scholar.google.com/citations?user=JiKBo6UAAAAJ
+
+"DezhenSong":
+  name: Dezhen Song
+  url: https://scholar.google.com/citations?user=jdSlREMAAAAJ
+
+"vulinhnguyen":
+  name: Vu Linh Nguyen
+  url: https://scholar.google.com/citations?user=d1J4vbsAAAAJ
