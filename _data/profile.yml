@@ -77,19 +77,16 @@ education:
     Minor in Finance
   date: 2020 – 2024
 
-# accepted:
-#   - name: A*STAR Singapore
-#     logo: /assets/images/badges/astar_logo.png
-#     date: 2024
-#   - name: Cốc Cốc
-#     logo: /assets/images/badges/coccoc_logo.png
-#     date: 2024
-#   - name: University of Technology Sydneys
-#     logo: /assets/images/badges/uts_logo.png
-#     date: 2024
-#   - name: VinUniversity
-#     logo: /assets/images/badges/VinUni_logo.png
-#     date: 2020
+accepted:
+  - name: A*STAR Singapore
+    logo: /assets/images/badges/astar_logo.png
+    date: 2024
+  - name: University of Technology Sydney (UTS)
+    logo: /assets/images/badges/uts_logo.png
+    date: 2024
+  - name: VinUniversity
+    logo: /assets/images/badges/VinUni_logo.png
+    date: 2020
 
 # rejected:
 #   - name: NeurIPS
