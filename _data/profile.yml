@@ -2,14 +2,14 @@ primary_name: "Nguyen Tiet Nguyen Khoi"
 navbar_name: "khointn"
 
 positions:
-  - name: BSc in Computer Science
-    logo: /assets/images/badges/VinUni_logo.png
+  - name: AI Engineer at BioTuring
+    logo: /assets/images/badges/bioturing_logo.png
+  - name: Data Scientist at Cốc Cốc
+    logo: /assets/images/badges/coccoc_logo.png
   - name: Research Intern at A*STAR Singapore
     logo: /assets/images/badges/astar_logo.png
-  - name: Research Assistant at VinUni-UIUC Smart Health Center
-    logo: /assets/images/badges/VinUni_logo.png
 email: "nguyentietnguyenkhoi@gmail.com"
-cv_link: /assets/docs/CV_KhoiNguyen.pdf
+# cv_link: /assets/docs/CV_KhoiNguyen.pdf
 gscholar: a-W86AcAAAAJ
 github: khointn
 linkedin: khointn
@@ -17,12 +17,20 @@ linkedin: khointn
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I'm an AI Engineer at BioTuring, and a self-motivated researcher.
+    I'm an AI Engineer at BioTuring, and a self-motivated researcher. 
   </p>
   <p>
-   I previously worked as a data scientist at Cốc Cốc (Vietnam), where I developed ML models and optimized product features, impacting 30M monthly users with 600M search queries/month.
-   I was also a research intern at A*STAR (Singapore), and a research assistant at VinUniversity (Vietnam). My research topics included applied NLP, scene understanding, adversarial robustness, and multi-agent LLMs/SLMs for resource-constrained tasks.
+   I previously worked as a Data Scientist at Cốc Cốc, the only Vietnamese search engine and browser. 
+   I developed ML models and optimized product features to impact 30M monthly users with 600M search queries/month. During my time at Cốc Cốc, I contributed 3 services for Cốc Cốc AI Answer feature, and 1 service for Cốc Cốc SERP feature.
   </p>
+  <p>
+   I was a research intern at A*STAR Singapore, researched on adversarial robustness. I first-authored a research publication at IEEE TNNLS (Q1). I worked under the supervision of  <a href="https://scholar.google.com/citations?user=yJpx_WoAAAAJ&hl=en" target="_blank">Dr. Zhang Wenyu</a>.
+  </p>
+  <p>
+   I was a research assistant at VinUniversity Vietnam, researched on scene understanding and and multi-agent LLMs/SLMs for resource-constrained tasks. 
+   I contributed to several research publications as co-first author, collaborated with researchers from the University of Alabama at Birmingham (UAB) and Mohamed bin Zayed University of Artificial Intelligence (MBZUAI).
+   I worked under the supervision of  <a href="https://scholar.google.com/citations?user=CCQ6CH4AAAAJ&hl=en" target="_blank">Professor Do Tho Truong</a>.
+  </>
 
 portrait_url: /assets/images/photos/portrait.png
 
