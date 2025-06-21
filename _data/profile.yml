@@ -1,5 +1,5 @@
-primary_name: "Khoi (Tiet Nguyen) Nguyen"
-navbar_name: "KhoiNguyen"
+primary_name: "Nguyen Tiet Nguyen Khoi"
+navbar_name: "khointn"
 
 positions:
   - name: BSc in Computer Science
@@ -7,7 +7,7 @@ positions:
   - name: Research Intern at A*STAR Singapore
     logo: /assets/images/badges/astar_logo.png
   - name: Research Assistant at VinUni-UIUC Smart Health Center
-    logo: /assets/images/badges/vishc_logo.png
+    logo: /assets/images/badges/VinUni_logo.png
 email: "nguyentietnguyenkhoi@gmail.com"
 cv_link: /assets/docs/CV_KhoiNguyen.pdf
 gscholar: a-W86AcAAAAJ
