@@ -1,17 +1,18 @@
 ---
-title:          "A novel shell-and-tube heat exchanger design with alternative inclined baffles"
-date:           2025-01-03 00:01:00 +0800
-selected:       false
-pub:            "Case Studies in Thermal Engineering (Q1)"
+title:          "A Survey and Evaluation of Adversarial Attacks for Object Detection"
+date:           2025-05-06 00:01:00 +0800
+selected:       true
+pub:            "IEEE Transactions on Neural Networks and Learning Systems TNNLS (Q1)"
 abstract: >-
-  Improve the Heat Exchanger efficiency through baffles modification
-cover:          /assets/images/covers/HE.jpg
+  This article presents a novel taxonomic framework for categorizing adversarial attacks specific to object detection architectures, synthesizes existing robustness metrics, and provides a comprehensive empirical evaluation of state-of-the-art attack methodologies on popular object detection models, including both traditional detectors and modern detectors with vision-language pretraining.
+cover:          /assets/images/covers/TNNLS.jpeg
 authors:
-  - "Huy Minh Khoi Hoang"
-  - "Hai-Lam Cao"
-  - quangppm
-  - "Ahmad Hajjar"
-  - vulinhnguyen
+  - khointn
+  - "Wenyu Zhang"
+  - "Kangkang Lu"
+  - "Yu-Huan Wu"
+  - "Xingjian Zheng"
+  - "Hui Li Tan"
 links:
-  Paper: https://www.sciencedirect.com/science/article/pii/S2214157X24015739
+  Paper: https://ieeexplore.ieee.org/abstract/document/10988892
 ---

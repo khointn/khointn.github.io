@@ -2,7 +2,7 @@
 title:          "ESGNN: Towards Equivariant Scene Graph Neural Network for 3D Scene Understanding"
 date:           2024-06-30 00:01:00 +0800
 selected:       true
-pub:            "2024 IEEE International Conference on Robot and Human Interactive Communication (ROMAN) - Late Breaking Report"
+pub:            "2024 IEEE International Conference on Robot and Human Interactive Communication ROMAN - Late Breaking Report"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
