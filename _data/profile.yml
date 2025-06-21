@@ -1,0 +1,86 @@
+primary_name: "Khoi (Tiet Nguyen) Nguyen"
+navbar_name: "KhoiNguyen"
+
+positions:
+  - name: BSc in Computer Science
+    logo: /assets/images/badges/VinUni_logo.png
+  - name: Research Intern at A*STAR Singapore
+    logo: /assets/images/badges/astar_logo.png
+  - name: Research Assistant at VinUni-UIUC Smart Health Center
+    logo: /assets/images/badges/vishc_logo.png
+email: "nguyentietnguyenkhoi@gmail.com"
+cv_link: /assets/docs/CV_KhoiNguyen.pdf
+gscholar: a-W86AcAAAAJ
+github: khointn
+linkedin: khointn
+wechat_qrcode: /assets/images/wechat.jpeg
+wechat_prompt: >-
+  Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    I am a recent graduate in Computer Science from <a href="https://vinuni.edu.vn" target="_blank">VinUniversity</a>, where I focused on artificial intelligence and research at the intersection of machine learning and robotics.
+  </p>
+  <p>
+    I’ve worked on research projects related to small language models, adversarial robustness, scene graph neural networks, and AI-driven path planning. I’ve published works on <a href="https://arxiv.org/abs/2505.00831" target="_blank">LLM-guided distillation</a> and <a href="https://ieeexplore.ieee.org/document/10988892" target="_blank">adversarial attacks</a> in top venues. I also interned at <a href="https://www.a-star.edu.sg" target="_blank">A*STAR Singapore</a> and contributed to production AI systems at <a href="https://coccoc.com/" target="_blank">Cốc Cốc</a> impacting millions of users.
+  </p>
+
+portrait_url: /assets/images/photos/khoi_portrait.png
+
+education:
+- name: VinUniversity
+  logo: /assets/images/badges/VinUni_logo.png
+  position: >-
+    College of Engineering and Computer Science <br/>
+    B.Sc. in Computer Science, Minor in Finance
+  date: Aug. 2020 – Jun. 2024
+
+experience:
+  - name: BioTuring
+    logo: /assets/images/badges/bioturing_logo.png
+    position: AI Engineer (onboarding)
+    date: Jul. 2025 – Present
+  - name: Cốc Cốc
+    logo: /assets/images/badges/coccoc_logo.png
+    position: Data Scientist
+    date: Aug. 2024 – Jul. 2025
+  - name: VinUni-UIUC Smart Health Center
+    logo: /assets/images/badges/vishc_logo.png
+    position: Research Assistant
+    date: Dec. 2022 – Dec. 2024
+  - name: A*STAR Singapore
+    logo: /assets/images/badges/astar_logo.png
+    position: Research Intern
+    date: Mar. 2024 – Jul. 2024
+
+accepted:
+  - name: A*STAR Singapore
+    logo: /assets/images/badges/astar_logo.png
+    date: 2024
+  - name: Cốc Cốc
+    logo: /assets/images/badges/coccoc_logo.png
+    date: 2024
+  - name: VinUniversity
+    logo: /assets/images/badges/VinUni_logo.png
+    date: 2020
+
+rejected:
+  - name: NeurIPS
+    logo: /assets/images/badges/logo_neurips.png
+    date: 2024
+  - name: IROS
+    logo: /assets/images/badges/iros25_logo.png
+    date: 2025
+  - name: CVPR
+    logo: /assets/images/badges/CVPR_logo.jpg
+    date: 2025
+
+# Optional: Add research section if your page supports it
+# research:
+#   - title: SmallPlan: Leverage Small Language Models for Sequential Path Planning
+#     link: https://arxiv.org/abs/2505.00831
+#     venue: arXiv, 2025
+#   - title: Survey and Evaluation of Adversarial Attacks for Object Detection
+#     link: https://ieeexplore.ieee.org/document/10988892
+#     venue: IEEE TNNLS, 2025

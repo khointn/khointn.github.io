@@ -1,0 +1,134 @@
+@charset "utf-8";
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    padding-top: 5.0rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 700;
+}
+
+.text-profile-position {
+    font-weight: 400;
+}
+
+.text-profile-bio {
+    /* font-family: "Raleway"; */
+    font-weight: 400;
+}
+
+.navbar {
+    opacity: 0.95;
+}
+
+.inline-badge {
+    height: 30px;
+    vertical-align: -10%;
+    margin-right: 2px;
+    line-break: unset;
+}
+
+.no-break {
+    white-space: nowrap;
+}
+
+.cover-image {
+    width: 180px;
+    max-height: 120px;
+}
+
+.abstract-body {
+    min-height: 100px;
+}
+
+img.lazy {
+    background-image: url('images/loading.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    min-height: 80px;
+}
+
+div.lazy {
+    background-image: url('images/loading.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    min-height: 80px;
+}
+
+.badge-publication {
+    font-size: 100%;
+}
+
+.email-text {
+    font-family: Courier, monospace;
+}
+
+@keyframes changeLetter {
+  0%   { content: ""; }
+  2%   { content: "g"; }
+  4%   { content: "gy"; }
+  6%   { content: "gym"; }
+  8%   { content: "gymm"; }
+  10%  { content: "gymme"; }
+  12%  { content: "gymmer"; }
+  14%  { content: "gymmer."; }
+  16%  { content: "gymmer."; }
+  18%  { content: "gymmer"; }
+  20%  { content: "gymme"; }
+  22%  { content: "gymm"; }
+  24%  { content: "gym"; }
+  26%  { content: "gy"; }
+  28%  { content: "g"; }
+
+  30%  { content: "ga"; }
+  32%  { content: "gam"; }
+  34%  { content: "game"; }
+  36%  { content: "gamer"; }
+  38%  { content: "gamer."; }
+  40%  { content: "gamer."; }
+  42%  { content: "gamer"; }
+  44%  { content: "game"; }
+  46%  { content: "gam"; }
+  48%  { content: "ga"; }
+  50%  { content: "g"; }
+  52%  { content: ""; }
+
+  54%  { content: "l"; }
+  56%  { content: "li"; }
+  58%  { content: "lis"; }
+  60%  { content: "list"; }
+  62%  { content: "liste"; }
+  64%  { content: "listen"; }
+  66%  { content: "listene"; }
+  68%  { content: "listener"; }
+  70%  { content: "listener."; }
+  72%  { content: "listener."; }
+  74%  { content: "listener"; }
+  76%  { content: "listene"; }
+  78%  { content: "listen"; }
+  80%  { content: "liste"; }
+  82%  { content: "list"; }
+  84%  { content: "lis"; }
+  86%  { content: "li"; }
+  88%  { content: "l"; }
+  90%  { content: ""; }
+
+  100% { content: ""; }
+}
+@keyframes cursor {
+  0% {content: "";}
+  50% {content: "_";}
+  100% {content: "";}
+}
+.letter-changer::before {
+  animation: changeLetter 6s linear 1s infinite normal forwards;
+  content: "";
+}
+.letter-changer::after {
+  animation: cursor 0.6s linear 2.2s 1 infinite normal forwards, cursor 0.6s linear 4s 3 infinite normal forwards;
+  content: "_";
+}
