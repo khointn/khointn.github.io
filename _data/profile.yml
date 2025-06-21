@@ -23,15 +23,7 @@ short_bio: >-
     I’ve worked on research projects related to small language models, adversarial robustness, scene graph neural networks, and AI-driven path planning. I’ve published works on <a href="https://arxiv.org/abs/2505.00831" target="_blank">LLM-guided distillation</a> and <a href="https://ieeexplore.ieee.org/document/10988892" target="_blank">adversarial attacks</a> in top venues. I also interned at <a href="https://www.a-star.edu.sg" target="_blank">A*STAR Singapore</a> and contributed to production AI systems at <a href="https://coccoc.com/" target="_blank">Cốc Cốc</a> impacting millions of users.
   </p>
 
-portrait_url: /assets/images/photos/khoi_portrait.png
-
-education:
-- name: VinUniversity
-  logo: /assets/images/badges/VinUni_logo.png
-  position: >-
-    College of Engineering and Computer Science <br/>
-    B.Sc. in Computer Science, Minor in Finance
-  date: Aug. 2020 – Jun. 2024
+portrait_url: /assets/images/photos/portrait.png
 
 experience:
   - name: BioTuring
@@ -51,12 +43,23 @@ experience:
     position: Research Intern
     date: Mar. 2024 – Jul. 2024
 
+education:
+- name: VinUniversity
+  logo: /assets/images/badges/VinUni_logo.png
+  position: >-
+    College of Engineering and Computer Science <br/>
+    B.Sc. in Computer Science, Minor in Finance
+  date: Aug. 2020 – Jun. 2024
+
 accepted:
   - name: A*STAR Singapore
     logo: /assets/images/badges/astar_logo.png
     date: 2024
   - name: Cốc Cốc
     logo: /assets/images/badges/coccoc_logo.png
+    date: 2024
+  - name: University of Technology Sydneys
+    logo: /assets/images/badges/uts_logo.png
     date: 2024
   - name: VinUniversity
     logo: /assets/images/badges/VinUni_logo.png
