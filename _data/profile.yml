@@ -58,6 +58,16 @@ experience:
     position: Research Intern
     date: Mar. 2024 – Jul. 2024
 
+older internships:
+  - name: Cốc Cốc Browser & Search Engine
+    logo: /assets/images/badges/coccoc_logo.png
+    position: Data Scientist Intern
+    date: Jun. 2022 – Dec. 2022
+  - name: FPT Software
+    logo: /assets/images/badges/fsoft_logo.png
+    position: Python Developer Intern
+    date: Aug. 2021 – Oct. 2021
+
 education:
 - name: VinUniversity
   logo: /assets/images/badges/VinUni_logo.png
