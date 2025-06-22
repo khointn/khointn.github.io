@@ -93,9 +93,15 @@ awards:
     date: 2022
 
 accepted:
+  - name: BioTuring
+    logo: /assets/images/badges/bioturing_logo.png
+    date: 2025
   - name: TNNLS
     logo: /assets/images/badges/tnnls_logo.jpg
     date: 2025
+  - name: Cốc Cốc
+    logo: /assets/images/badges/coccoc_logo.png
+    date: 2024
   - name: A*STAR Singapore
     logo: /assets/images/badges/astar_logo.png
     date: 2024
