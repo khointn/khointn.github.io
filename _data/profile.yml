@@ -101,9 +101,11 @@ accepted:
     date: 2024
   - name: University of Technology Sydney (UTS)
     logo: /assets/images/badges/uts_logo.png
+    comment: Accepted to MSc. Computer Science program
     date: 2024
   - name: University of California San Diego (UCSD)
     logo: /assets/images/badges/ucsd_logo.png
+    comment: Accepted to research program
     date: 2022
   - name: VinUniversity
     logo: /assets/images/badges/VinUni_logo.png
@@ -113,10 +115,12 @@ rejected:
   - name: NeurIPS
     logo: /assets/images/badges/logo_neurips.png
     date: 2024
+    comment: My paper TESGNN was borderline rejected
   - name: IROS
     logo: /assets/images/badges/iros25_logo.png
     date: 2025
+    comment: My paper TESGNN was borderline rejected
   - name: CVPR
     logo: /assets/images/badges/CVPR_logo.jpg
     date: 2025
-    comment: My paper TESGNN was borderline rejected.
+    comment: My paper TESGNN was borderline rejected
