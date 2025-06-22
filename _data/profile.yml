@@ -76,8 +76,8 @@ older_internships:
 education:
 - name: VinUniversity
   logo: /assets/images/badges/VinUni_logo.png
+  dept: College of Engineering and Computer Science
   position: >-
-    College of Engineering and Computer Science <br/>
     B.Sc. in Computer Science, Artificial Intelligence Concentration <br/>
     Minor in Finance
   date: 2020 – 2024
