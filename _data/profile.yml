@@ -85,26 +85,29 @@ education:
 awards:
   - name: Singapore Pre-Graduate Award (SIPGA)
     date: 2024
-  - name: USD$2000 Undergraduate Research Award
+  - name: US$2000 Undergraduate Research Award
     date: 2023
   - name: Dean's List Award
     date: 2022
   - name: Undergraduate Research Experience Award
     date: 2022
 
-# accepted:
-#   - name: TNNLS
-#     logo: /assets/images/badges/tnnls_logo.png
-#     date: 2025
-#   - name: A*STAR Singapore
-#     logo: /assets/images/badges/astar_logo.png
-#     date: 2024
-#   - name: University of Technology Sydney (UTS)
-#     logo: /assets/images/badges/uts_logo.png
-#     date: 2024
-#   - name: VinUniversity
-#     logo: /assets/images/badges/VinUni_logo.png
-#     date: 2020
+accepted:
+  - name: TNNLS
+    logo: /assets/images/badges/tnnls_logo.png
+    date: 2025
+  - name: A*STAR Singapore
+    logo: /assets/images/badges/astar_logo.png
+    date: 2024
+  - name: University of Technology Sydney (UTS)
+    logo: /assets/images/badges/uts_logo.png
+    date: 2024
+  - name: University of California San Diego (UCSD)
+    logo: /assets/images/badges/ucsd_logo.png
+    date: 2022
+  - name: VinUniversity
+    logo: /assets/images/badges/VinUni_logo.png
+    date: 2020
 
 # rejected:
 #   - name: NeurIPS
