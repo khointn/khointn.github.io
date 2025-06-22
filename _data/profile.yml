@@ -112,10 +112,6 @@ accepted:
     date: 2020
 
 rejected:
-  - name: NeurIPS
-    logo: /assets/images/badges/logo_neurips.png
-    date: 2024
-    comment: My paper TESGNN was borderline rejected
   - name: IROS
     logo: /assets/images/badges/iros25_logo.png
     date: 2025
@@ -124,3 +120,11 @@ rejected:
     logo: /assets/images/badges/CVPR_logo.png
     date: 2025
     comment: My paper TESGNN was borderline rejected
+  - name: NeurIPS
+    logo: /assets/images/badges/logo_neurips.png
+    date: 2024
+    comment: My paper TESGNN was borderline rejected
+  - name: AWS
+    logo: /assets/images/badges/aws_logo.png
+    date: 2023
+    comment: I got into the final interview round for internship, but was rejected in the end
