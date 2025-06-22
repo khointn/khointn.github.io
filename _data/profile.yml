@@ -94,7 +94,7 @@ awards:
 
 accepted:
   - name: TNNLS
-    logo: /assets/images/badges/tnnls_logo.png
+    logo: /assets/images/badges/tnnls_logo.jpg
     date: 2025
   - name: A*STAR Singapore
     logo: /assets/images/badges/astar_logo.png
@@ -109,14 +109,14 @@ accepted:
     logo: /assets/images/badges/VinUni_logo.png
     date: 2020
 
-# rejected:
-#   - name: NeurIPS
-#     logo: /assets/images/badges/logo_neurips.png
-#     date: 2024
-#   - name: IROS
-#     logo: /assets/images/badges/iros25_logo.png
-#     date: 2025
-#   - name: CVPR
-#     logo: /assets/images/badges/CVPR_logo.jpg
-#     date: 2025
-#     comment: my paper TESGNN was borderline rejected.
+rejected:
+  - name: NeurIPS
+    logo: /assets/images/badges/logo_neurips.png
+    date: 2024
+  - name: IROS
+    logo: /assets/images/badges/iros25_logo.png
+    date: 2025
+  - name: CVPR
+    logo: /assets/images/badges/CVPR_logo.jpg
+    date: 2025
+    comment: my paper TESGNN was borderline rejected.
