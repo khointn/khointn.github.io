@@ -26,9 +26,11 @@
                             <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.rejected %}
                                 <li class="media mb-1 mr-2" style="display: inline-block;">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" title="{{ item.name }}" style="width: 32px; height: 32px; object-fit: contain; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.07);">
-                                                                    <div class="media-body">
-                                    <div class="small">{{ item.comment }}</div>
+                                    <img src="{{ item.logo | relative_url }}" 
+                                         alt="{{ item.name }}" 
+                                         title=title="{{ item.name }}{% if item.comment %} — {{ item.comment }}{% endif %}" 
+                                         style="width: 32px; height: 32px; object-fit: contain; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.07);">
+                                    <div class="media-body">
                                     </div>
                                 </li>
                                 {% endfor %}
