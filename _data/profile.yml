@@ -17,7 +17,7 @@ linkedin: khointn
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Upcoming AI Engineer at BioTuring, and a self-motivated researcher. 
+    I'm a data scientist, and a self-motivated researcher. 
   </p>
   <p>
    I previously worked as a <strong>Data Scientist at Cốc Cốc</strong>, the only Vietnamese search engine and browser. 
@@ -45,11 +45,11 @@ short_bio: >-
 portrait_url: /assets/images/photos/portrait.png
 
 experience:
-  - name: BioTuring
-    logo: /assets/images/badges/bioturing_logo.png
-    position: AI Engineer (onboarding)
-    date: Jul. 2025 start
-    comment: do something cool
+  # - name: BioTuring
+  #   logo: /assets/images/badges/bioturing_logo.png
+  #   position: AI Engineer (onboarding)
+  #   date: Jul. 2025 start
+  #   comment: do something cool
   - name: Cốc Cốc Browser & Search Engine
     logo: /assets/images/badges/coccoc_logo.png
     position: Data Scientist
