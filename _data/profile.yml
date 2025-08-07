@@ -2,8 +2,8 @@ primary_name: "Nguyen Tiet Nguyen Khoi"
 navbar_name: "khointn"
 
 positions:
-  - name: AI Engineer at BioTuring
-    logo: /assets/images/badges/bioturing_logo.png
+  # - name: AI Engineer at BioTuring
+  #   logo: /assets/images/badges/bioturing_logo.png
   - name: Data Scientist at Cốc Cốc
     logo: /assets/images/badges/coccoc_logo.png
   - name: Research Intern at A*STAR Singapore
