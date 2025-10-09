@@ -1,6 +1,6 @@
 ---
 title:          "TESGNN: Temporal equivariant scene graph neural networks for efficient and robust multi-view 3d scene understanding"
-date:           2024-11-15 00:01:00 +0800
+date:           2025-07-24 00:01:00 +0800
 selected:       true
 pub:            "Transactions on Machine Learning Research TMLR 2025"
 abstract: >-
