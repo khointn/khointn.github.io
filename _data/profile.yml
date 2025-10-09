@@ -32,7 +32,8 @@ short_bio: >-
   </p>
   <p>
    I was a <strong>Research Assistant at VinUniversity</strong>, researched on scene understanding and language models (LLMs/SLMs) for resource-constrained tasks. 
-   I contributed to several research publications as co-first author, collaborated with researchers from UAB, USA and MBZUAI, UAE.
+   I contributed to 3 research publications as co-first author (TMLR, IEEE RO-MAN). I collaborated with researchers from UAB, USA and MBZUAI, UAE.
+
    I worked under the supervision of <a href="https://scholar.google.com/citations?user=CCQ6CH4AAAAJ&hl=en" target="_blank">Professor Do Tho Truong</a>.
   </p>
   <p>
@@ -47,11 +48,6 @@ short_bio: >-
 portrait_url: /assets/images/photos/portrait.png
 
 experience:
-  # - name: BioTuring
-  #   logo: /assets/images/badges/bioturing_logo.png
-  #   position: AI Engineer (onboarding)
-  #   date: Jul. 2025 start
-  #   comment: do something cool
   - name: Cốc Cốc Browser & Search Engine
     logo: /assets/images/badges/coccoc_logo.png
     position: Data Scientist
@@ -95,10 +91,10 @@ awards:
     date: 2022
 
 accepted:
-  - name: BioTuring
-    logo: /assets/images/badges/bioturing_logo.png
+  - name: TMLR
+    logo: /assets/images/badges/tmlr_logo.jpg
     date: 2025
-  - name: TNNLS
+  - name: IEEE TNNLS
     logo: /assets/images/badges/tnnls_logo.jpg
     date: 2025
   - name: Cốc Cốc
