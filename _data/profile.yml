@@ -12,7 +12,6 @@ positions:
     logo: /assets/images/badges/VinUni_logo.png
 email: "nguyentietnguyenkhoi@gmail.com"
 # cv_link: /assets/docs/CV_KhoiNguyen.pdf
-# My research includes human motion capture analysis, robust agentic AI for clinical assistance, and AI-assisted medical robot. 
 gscholar: a-W86AcAAAAJ
 github: khointn
 linkedin: khointn
@@ -20,7 +19,7 @@ linkedin: khointn
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi! I'm currently an <strong>AI Researcher at Nanyang Technological University</strong>, working under the supervision of <a href="https://scholar.google.com/citations?user=9gO29eUAAAAJ&hl=en" target="_blank">Professor Domenico Campolo</a>. My research includes robust agentic AI for clinical assistance and human motion analysis. 
+    Hi! I'm currently an <strong>AI Researcher at Nanyang Technological University</strong>, working under the supervision of <a href="https://scholar.google.com/citations?user=9gO29eUAAAAJ&hl=en" target="_blank">Professor Domenico Campolo</a>. My research includes robust agentic AI for clinical assistance, VLMs/LLMs for gait analysis, and human motion analysis. 
   </p>
   <p>
    I previously worked as a <strong>Data Scientist at Cốc Cốc</strong>, the only Vietnamese search engine and browser. 
@@ -94,6 +93,10 @@ awards:
     date: 2022
   - name: Undergraduate Research Experience Award
     date: 2022
+
+academic:
+  - name: Reviewer, Springer IJCV, 2026
+  - name: Reviewer, IEEE ICRA 2026
 
 accepted:
   - name: TMLR
