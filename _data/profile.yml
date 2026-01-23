@@ -12,6 +12,14 @@ positions:
     logo: /assets/images/badges/VinUni_logo.png
 email: "nguyentietnguyenkhoi@gmail.com"
 # cv_link: /assets/docs/CV_KhoiNguyen.pdf
+#   <p>
+  # My other research co-authors included <a href="https://scholar.google.com/citations?user=jdSlREMAAAAJ&hl=en" target="_blank">Professor Dezhen Song, MBZUAI</a>, and <a href="https://scholar.google.com/citations?user=JiKBo6UAAAAJ&hl=en" target="_blank">Professor Hy Truong Son, UAB</a>
+  # </p>
+  # <p>
+  # I've been fortunate to achieve some accomplishments, but also faced many rejections along the way. 
+  # I share some of my rejections at the bottom of this page - whether in research submissions, university applications, or job interviews.
+  # I hope to give you a more genuine picture of my personal journey.
+  # </p>
 gscholar: a-W86AcAAAAJ
 github: khointn
 linkedin: khointn
@@ -39,14 +47,6 @@ short_bio: >-
    I contributed to 3 research publications as co-first author (TMLR, IEEE RO-MAN). I collaborated with researchers from UAB, USA and MBZUAI, UAE.
 
    I worked under the supervision of <a href="https://scholar.google.com/citations?user=CCQ6CH4AAAAJ&hl=en" target="_blank">Professor Do Tho Truong</a>.
-  </p>
-  <p>
-  My other research co-authors included <a href="https://scholar.google.com/citations?user=jdSlREMAAAAJ&hl=en" target="_blank">Professor Dezhen Song, MBZUAI</a>, and <a href="https://scholar.google.com/citations?user=JiKBo6UAAAAJ&hl=en" target="_blank">Professor Hy Truong Son, UAB</a>
-  </p>
-  <p>
-  I've been fortunate to achieve some accomplishments, but also faced many rejections along the way. 
-  I share some of my rejections at the bottom of this page - whether in research submissions, university applications, or job interviews.
-  I hope to give you a more genuine picture of my personal journey.
   </p>
 
 portrait_url: /assets/images/photos/portrait.png
