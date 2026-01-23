@@ -2,11 +2,11 @@ primary_name: "Nguyen Tiet Nguyen Khoi"
 navbar_name: "khointn"
 
 positions:
-  - name: Researcher at Nanyang Technological University
+  - name: AI Researcher at NTU
     logo: /assets/images/badges/ntu_logo.png
   - name: Data Scientist at Cốc Cốc
     logo: /assets/images/badges/coccoc_logo.png
-  - name: Research Intern at A*STAR Singapore
+  - name: Research Intern at A*STAR
     logo: /assets/images/badges/astar_logo.png
   - name: Research Assistant at VinUniversity
     logo: /assets/images/badges/VinUni_logo.png
@@ -19,7 +19,7 @@ linkedin: khointn
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I'm a data scientist, and an AI researcher. I'm currently working at <strong>Nanyang Technological University</strong> under the supervision of <a href="https://scholar.google.com/citations?user=9gO29eUAAAAJ&hl=en" target="_blank">Professor Domenico Campolo</a>.
+    Hi! I'm currently an <strong>AI Researcher at Nanyang Technological University</strong>, working under the supervision of <a href="https://scholar.google.com/citations?user=9gO29eUAAAAJ&hl=en" target="_blank">Professor Domenico Campolo</a>.
   </p>
   <p>
    I previously worked as a <strong>Data Scientist at Cốc Cốc</strong>, the only Vietnamese search engine and browser. 
@@ -50,7 +50,7 @@ portrait_url: /assets/images/photos/portrait.png
 experience:
   - name: Nanyang Technological University
     logo: /assets/images/badges/ntu_logo.png
-    position: Researcher
+    position: AI Researcher
     date: Nov. 2025 - Now
   - name: Cốc Cốc Browser & Search Engine
     logo: /assets/images/badges/coccoc_logo.png
