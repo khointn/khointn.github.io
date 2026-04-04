@@ -214,7 +214,7 @@ strong { color: var(--accent); font-weight: 500; }
 }
 
 .swiss-section {
-    padding: 32px 0;
+    padding: 16px 0;
     /* border-bottom: 1px solid var(--text-muted); */
     position: relative;
 }
@@ -241,8 +241,8 @@ strong { color: var(--accent); font-weight: 500; }
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    margin-bottom: 40px;
-    padding-bottom: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
     border-bottom: 2px solid var(--accent);
     display: inline-block;
 }
@@ -432,7 +432,7 @@ strong { color: var(--accent); font-weight: 500; }
 }
 
 .pub-info h4 { font-size: 0.9rem; font-weight: 700; margin-bottom: 4px; }
-.pub-authors { font-size: 0.8rem; color: var(--text-muted); }
+.pub-authors { font-size: 0.8rem; color: var(--text-dim); }
 .pub-authors strong { color: var(--accent); }
 .pub-venue { font-size: 0.75rem; color: var(--text-dim); }
 
@@ -459,7 +459,7 @@ strong { color: var(--accent); font-weight: 500; }
 
 /* ---- Experience ---- */
 
-.exp-block { margin-bottom: 24px; }
+.exp-block { margin-bottom: 12px; }
 
 .exp-cat {
     font-size: 0.7rem;
@@ -676,7 +676,7 @@ strong { color: var(--accent); font-weight: 500; }
 
 @media (max-width: 768px) {
     .main-content { padding: 0 20px; padding-top: 72px; }
-    .swiss-section { padding: 24px 0; }
+    .swiss-section { padding: 12px 0; }
     .about-name { font-size: 2rem; }
     .section-num { font-size: 3rem; top: 30px; }
     .stat-big { font-size: 2rem; }
@@ -686,7 +686,7 @@ strong { color: var(--accent); font-weight: 500; }
 @media (max-width: 375px) {
     html { font-size: 16px; }
     .main-content { padding: 0 16px; padding-top: 64px; }
-    .swiss-section { padding: 16px 0; }
+    .swiss-section { padding: 8px 0; }
     .about-name { font-size: 1.8rem; }
     .section-num { font-size: 2.5rem; top: 20px; }
     .stat-big { font-size: 1.6rem; }
