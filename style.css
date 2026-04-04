@@ -10,7 +10,7 @@
     --text: #000000;
     --text-dim: #333;
     --text-muted: #999;
-    --accent: #2563EB;
+    --accent: #FF0000;
     --border: #000;
     --sidebar-w: 200px;
     --font: 'Inter', sans-serif;
@@ -28,7 +28,7 @@
     --text: #ffffff;
     --text-dim: #ccc;
     --text-muted: #666;
-    --accent: #60A5FA;
+    --accent: #FF3333;
     --border: #fff;
 }
 
