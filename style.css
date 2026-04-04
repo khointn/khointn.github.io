@@ -10,7 +10,7 @@
     --text: #000000;
     --text-dim: #333;
     --text-muted: #999;
-    --accent: #FF0000;
+    --accent: #2563EB;
     --border: #000;
     --sidebar-w: 200px;
     --font: 'Inter', sans-serif;
@@ -28,7 +28,7 @@
     --text: #ffffff;
     --text-dim: #ccc;
     --text-muted: #666;
-    --accent: #FF3333;
+    --accent: #60A5FA;
     --border: #fff;
 }
 
@@ -46,7 +46,7 @@ body {
 
 a { color: var(--text); text-decoration: none; }
 a:hover { color: var(--accent); }
-strong { color: var(--accent); font-weight: 700; }
+strong { color: var(--accent); font-weight: 500; }
 
 /* ---- Left Sidebar Navigation ---- */
 
