@@ -234,7 +234,7 @@ strong { color: var(--accent); font-weight: 700; }
 [data-theme="dark"] .section-num { color: #1a1a1a; }
 
 .section-heading {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -572,7 +572,7 @@ strong { color: var(--accent); font-weight: 700; }
 [data-theme="dark"] .about-contact { border-top-color: #222; }
 
 .contact-email {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: 700;
     margin-top: 0;
 }
