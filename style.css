@@ -223,16 +223,18 @@ strong { color: var(--accent); font-weight: 500; }
     font-size: 8rem;
     font-weight: 900;
     color: var(--bg-alt);
+    opacity: 0.5;
     position: absolute;
     top: 40px;
     right: 0;
     line-height: 1;
     letter-spacing: -0.05em;
     user-select: none;
-    z-index: 0;
+    pointer-events: none;
+    z-index: -1;
 }
 
-[data-theme="dark"] .section-num { color: #1a1a1a; }
+[data-theme="dark"] .section-num { color: #1a1a1a; opacity: 0.5; }
 
 .section-heading {
     font-size: 0.9rem;
