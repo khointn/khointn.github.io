@@ -477,8 +477,8 @@ strong { color: var(--accent); font-weight: 500; }
 [data-theme="dark"] .exp-row { border-bottom-color: #222; }
 
 .exp-period-col {
-    width: 120px;
-    min-width: 120px;
+    width: 135px;
+    min-width: 135px;
     display: flex;
     flex-direction: column !important;
     align-items: center;
