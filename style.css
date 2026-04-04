@@ -478,9 +478,17 @@ strong { color: var(--accent); font-weight: 500; }
 
 .exp-period-col {
     min-width: 140px;
-    color: var(--text-muted);
-    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
     flex-shrink: 0;
+}
+
+.exp-date {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    text-align: center;
 }
 
 .exp-row p { color: var(--text-dim); font-size: 0.8rem; margin: 0; }
@@ -493,14 +501,13 @@ strong { color: var(--accent); font-weight: 500; }
 }
 
 .exp-logo {
-    width: 24px;
-    height: 24px;
-    min-width: 24px;
-    min-height: 24px;
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    min-height: 36px;
     object-fit: contain;
     border-radius: 4px;
     flex-shrink: 0;
-    margin-top: 2px;
 }
 
 .edu-extra {
