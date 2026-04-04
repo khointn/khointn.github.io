@@ -434,7 +434,7 @@ strong { color: var(--accent); font-weight: 500; }
 .pub-info h4 { font-size: 0.9rem; font-weight: 700; margin-bottom: 4px; }
 .pub-authors { font-size: 0.8rem; color: var(--text-dim); }
 .pub-authors strong { color: var(--accent); }
-.pub-venue { font-size: 0.75rem; color: var(--text-dim); }
+.pub-venue { font-size: 0.8rem; color: var(--text-dim); }
 
 .pub-actions {
     display: flex;
@@ -476,6 +476,10 @@ strong { color: var(--accent); font-weight: 500; }
     padding: 12px 0;
     border-bottom: 1px solid var(--bg-alt);
     font-size: 0.85rem;
+}
+
+.exp-row h4 + p {
+    margin-bottom: 6px;
 }
 
 [data-theme="dark"] .exp-row { border-bottom-color: #222; }
