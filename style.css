@@ -561,12 +561,20 @@ strong { color: var(--accent); font-weight: 700; }
     transform: scale(1.15);
 }
 
-/* ---- Contact ---- */
+/* ---- Contact (inside About) ---- */
+
+.about-contact {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid var(--bg-alt);
+}
+
+[data-theme="dark"] .about-contact { border-top-color: #222; }
 
 .contact-email {
     font-size: 1.2rem;
     font-weight: 700;
-    margin-top: 8px;
+    margin-top: 0;
 }
 
 .contact-email a {
@@ -599,6 +607,15 @@ strong { color: var(--accent); font-weight: 700; }
     background: var(--accent);
     border-color: var(--accent);
     color: #fff;
+}
+
+/* ---- Records Placeholder ---- */
+
+.records-placeholder {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-style: italic;
+    padding: 12px 0;
 }
 
 /* ---- Footer ---- */
