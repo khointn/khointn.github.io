@@ -431,7 +431,7 @@ strong { color: var(--accent); font-weight: 500; }
     color: var(--accent);
 }
 
-.pub-info h3 { font-size: 0.9rem; font-weight: 700; margin-bottom: 4px; }
+.pub-info h4 { font-size: 0.9rem; font-weight: 700; margin-bottom: 4px; }
 .pub-authors { font-size: 0.8rem; color: var(--text-dim); }
 .pub-authors strong { color: var(--accent); }
 .pub-venue { font-size: 0.75rem; color: var(--text-muted); }
