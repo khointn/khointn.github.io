@@ -1,36 +1,350 @@
----
-layout: default
-title : Homepage
-navbar_title: Home
----
-{% include widgets/profile_card.html %}
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic homepage of Nguyen Tiet Nguyen Khoi — Data Scientist and Researcher in Machine Learning and AI.">
+    <meta property="og:title" content="Nguyen Tiet Nguyen Khoi | Academic Homepage">
+    <meta property="og:description" content="Data Scientist and Researcher in Machine Learning and AI.">
+    <title>Nguyen Tiet Nguyen Khoi | Academic Homepage</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#about" class="skip-link">Skip to main content</a>
 
-{% include widgets/debug_repo_name.html %}
+    <!-- Left Vertical Navigation -->
+    <nav class="side-nav">
+        <div class="side-nav-top">
+            <span class="side-logo">NK</span>
+        </div>
+        <div class="side-nav-links">
+            <a href="#about" class="side-link active" data-num="00">About</a>
+            <a href="#publications" class="side-link" data-num="01">Papers</a>
+            <a href="#experience" class="side-link" data-num="02">Experience</a>
+            <a href="#education" class="side-link" data-num="03">Education</a>
+            <a href="#records" class="side-link" data-num="04">Records</a>
+            <a href="#contact" class="side-link" data-num="05">Contact</a>
+        </div>
+        <button type="button" class="side-theme-btn" id="themeToggle" aria-label="Toggle theme">&#9684;</button>
+    </nav>
 
-{% include widgets/debug_url.html %}
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <span class="side-logo">NK</span>
+        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">&#9776;</button>
+    </nav>
+    <div class="mobile-menu-overlay" id="mobileOverlay">
+        <div class="mobile-menu">
+            <button type="button" class="mobile-close-btn" id="mobileCloseBtn" aria-label="Close menu">&times;</button>
+            <a href="#about" class="mobile-link" data-num="00">About</a>
+            <a href="#publications" class="mobile-link" data-num="01">Papers</a>
+            <a href="#experience" class="mobile-link" data-num="02">Experience</a>
+            <a href="#education" class="mobile-link" data-num="03">Education</a>
+            <a href="#records" class="mobile-link" data-num="04">Records</a>
+            <a href="#contact" class="mobile-link" data-num="05">Contact</a>
+            <button type="button" class="side-theme-btn mobile-theme-btn" id="mobileThemeToggle" aria-label="Toggle theme">&#9684;</button>
+        </div>
+    </div>
 
-{% if site.data.display.homepage.show_selected_publications %}
-    {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-    {% 
-        include widgets/publication_card.html 
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-    %}
-{% endif %}
+    <!-- Main Content -->
+    <main role="main" class="main-content">
 
-{% if site.data.display.homepage.show_experience %}
-    {% include widgets/experience_card.html %}
-{% endif %}
+        <!-- ===== About ===== -->
+        <section id="about" class="swiss-section">
+            <div class="hero-photo about-photo">
+                <img src="assets/images/photos/portrait.png" alt="Nguyen Tiet Nguyen Khoi">
+            </div>
+            <div class="about-layout">
+                <h1 class="about-name">Nguyen Tiet Nguyen Khoi</h1>
+                <div class="about-meta">
+                    <p class="role-line">Data Scientist &amp; Researcher</p>
+                </div>
+                <div class="about-positions">
+                    <span class="position-item">
+                        <img src="assets/images/badges/coccoc_logo.png" alt="Cốc Cốc" class="position-logo">
+                        Data Scientist at Cốc Cốc
+                    </span>
+                    <span class="position-sep">|</span>
+                    <span class="position-item">
+                        <img src="assets/images/badges/astar_logo.png" alt="A*STAR" class="position-logo">
+                        Research Intern at A*STAR Singapore
+                    </span>
+                    <span class="position-sep">|</span>
+                    <span class="position-item">
+                        <img src="assets/images/badges/VinUni_logo.png" alt="VinUniversity" class="position-logo">
+                        Research Assistant at VinUniversity
+                    </span>
+                </div>
+                <div class="red-rule"></div>
+                <div class="about-body">
+                    <div class="about-desc">
+                        <p>I'm a data scientist, and a self-motivated researcher.</p>
+                        <p>
+                            I previously worked as a <strong>Data Scientist at Cốc Cốc</strong>, the only Vietnamese search engine and browser.
+                            I developed ML models and optimized product features to impact 30M monthly users with 600M search queries/month.
+                            I contributed 3 services for Cốc Cốc AI Answer feature, and 1 service for Cốc Cốc SERP feature.
+                        </p>
+                        <p>
+                            I was a <strong>Research Intern at A*STAR Singapore</strong>, researched on adversarial robustness.
+                            I first-authored a research publication at IEEE TNNLS (Q1).
+                            I worked under the supervision of <a href="https://scholar.google.com/citations?user=yJpx_WoAAAAJ&hl=en" target="_blank">Dr. Zhang Wenyu</a>.
+                        </p>
+                        <p>
+                            I was a <strong>Research Assistant at VinUniversity</strong>, researched on scene understanding and language models (LLMs/SLMs) for resource-constrained tasks.
+                            I contributed to 3 research publications as co-first author (TMLR, IEEE RO-MAN).
+                            I collaborated with researchers from UAB, USA and MBZUAI, UAE.
+                            I worked under the supervision of <a href="https://scholar.google.com/citations?user=CCQ6CH4AAAAJ&hl=en" target="_blank">Professor Do Tho Truong</a>.
+                        </p>
+                        <p>
+                            My other research co-authors included
+                            <a href="https://scholar.google.com/citations?user=jdSlREMAAAAJ&hl=en" target="_blank">Professor Dezhen Song, MBZUAI</a>, and
+                            <a href="https://scholar.google.com/citations?user=JiKBo6UAAAAJ&hl=en" target="_blank">Professor Hy Truong Son, UAB</a>.
+                        </p>
+                        <p>
+                            I've been fortunate to earn some meaningful accomplishments, but also faced many rejections along the way.
+                            I share some of my rejections at the bottom of this page &mdash; whether in research submissions, university applications, or job interviews.
+                            I hope to give you a more honest glimpse into the journey that reflects my human experience.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="swiss-stat"><span class="stat-big">5</span><span class="stat-sm">Publications</span></div>
+                        <div class="swiss-stat"><span class="stat-big">4</span><span class="stat-sm">Awards</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-{% if site.data.display.homepage.show_education %}
-    {% include widgets/education_card.html %}
-{% endif %}
+        <!-- ===== Publications ===== -->
+        <section id="publications" class="swiss-section">
+            <div class="section-num">01</div>
+            <h2 class="section-heading">Publications</h2>
+            <div class="pub-list">
 
-{% if site.data.display.homepage.show_records %}
-    {% include widgets/records.html %}
-{% endif %}
+                <div class="pub-row">
+                    <span class="pub-year-col">2025</span>
+                    <div class="pub-info">
+                        <h3>SmallPlan: Leverage Small Language Models for Sequential Path Planning with Simulation-Powered, LLM-Guided Distillation</h3>
+                        <p class="pub-authors">Quang Pham Phuoc Minh, <strong>Khoi Nguyen Tiet Nguyen</strong>, Hoai Nhi Doan, Cuong Anh Pham, Kentaro Inui, Dezhen Song</p>
+                        <p class="pub-venue">2025</p>
+                    </div>
+                    <div class="pub-actions">
+                        <a href="https://arxiv.org/pdf/2505.00831" target="_blank">PDF</a>
+                        <a href="https://github.com/quangpham2006/SmallPlan" target="_blank">Code</a>
+                    </div>
+                </div>
 
-<!-- 
-<div style="max-width: 380px; margin: 0 auto;">
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=zEmM8vPIJL6y2k8jzfcpYEEgJB1eIHoDAzlNyxUrwNo&cl=ffffff&w=380"></script>
-</div> -->
+                <div class="pub-row">
+                    <span class="pub-year-col">2025</span>
+                    <div class="pub-info">
+                        <h3>TESGNN: Temporal Equivariant Scene Graph Neural Networks for Efficient and Robust Multi-View 3D Scene Understanding</h3>
+                        <p class="pub-authors">Quang Pham Phuoc Minh, <strong>Khoi Nguyen Tiet Nguyen</strong>, Lan Ngo Chi, Truong Do Tho, Dezhen Song, Truong-Son Hy</p>
+                        <p class="pub-venue">Transactions on Machine Learning Research (TMLR) 2025</p>
+                    </div>
+                    <div class="pub-actions">
+                        <a href="https://openreview.net/forum?id=boM0kkYPzE" target="_blank">PDF</a>
+                        <a href="https://github.com/HySonLab/TESGraph" target="_blank">Code</a>
+                    </div>
+                </div>
+
+                <div class="pub-row">
+                    <span class="pub-year-col">2025</span>
+                    <div class="pub-info">
+                        <h3>A Survey and Evaluation of Adversarial Attacks for Object Detection</h3>
+                        <p class="pub-authors"><strong>Khoi Nguyen Tiet Nguyen</strong>, Zhang Wenyu, Kangkang Lu, Yu-Huan Wu, Xingjian Zheng, Hui Li Tan</p>
+                        <p class="pub-venue">IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 2025</p>
+                    </div>
+                    <div class="pub-actions">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10988892" target="_blank">PDF</a>
+                    </div>
+                </div>
+
+                <div class="pub-row">
+                    <span class="pub-year-col">2024</span>
+                    <div class="pub-info">
+                        <h3>Development of a Cost-effective On-device Natural Language Command Navigation System for Mobile Robots in Challenging Indoor Scenarios</h3>
+                        <p class="pub-authors">Tung T Ngo, <strong>Khoi Nguyen Tiet Nguyen</strong>, Duc Q Nguyen, Khuyen G Pham, Khoi HM Hoang, Quang Pham Phuoc Minh, Truong Do Tho</p>
+                        <p class="pub-venue">IEEE/SICE Symposium on System Integration (SII) 2025</p>
+                    </div>
+                    <div class="pub-actions">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10870597/" target="_blank">PDF</a>
+                    </div>
+                </div>
+
+                <div class="pub-row">
+                    <span class="pub-year-col">2024</span>
+                    <div class="pub-info">
+                        <h3>ESGNN: Towards Equivariant Scene Graph Neural Network for 3D Scene Understanding</h3>
+                        <p class="pub-authors">Quang Pham Phuoc Minh, <strong>Khoi Nguyen Tiet Nguyen</strong>, Lan Ngo Chi, Truong Do Tho, Truong-Son Hy</p>
+                        <p class="pub-venue">IEEE Conference on Robot and Human Interactive Communication (RO-MAN) 2024 &mdash; Late Breaking Report</p>
+                    </div>
+                    <div class="pub-actions">
+                        <a href="https://arxiv.org/pdf/2407.00609" target="_blank">PDF</a>
+                        <a href="https://github.com/HySonLab/TESGraph" target="_blank">Code</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== Experience ===== -->
+        <section id="experience" class="swiss-section">
+            <div class="section-num">02</div>
+            <h2 class="section-heading">Experience</h2>
+
+            <div class="exp-block">
+                <h4 class="exp-cat">Work Experience</h4>
+                <div class="exp-row">
+                    <span class="exp-period-col">Aug 2024 – Jul 2025</span>
+                    <div class="exp-details">
+                        <img src="assets/images/badges/coccoc_logo.png" alt="Cốc Cốc" class="exp-logo">
+                        <div>
+                            <strong>Data Scientist</strong>
+                            <p>Cốc Cốc Browser &amp; Search Engine</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="exp-row">
+                    <span class="exp-period-col">Dec 2022 – Dec 2024</span>
+                    <div class="exp-details">
+                        <img src="assets/images/badges/VinUni_logo.png" alt="VinUniversity" class="exp-logo">
+                        <div>
+                            <strong>Research Assistant</strong>
+                            <p>VinUni-UIUC Smart Health Center</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="exp-row">
+                    <span class="exp-period-col">Mar 2024 – Jul 2024</span>
+                    <div class="exp-details">
+                        <img src="assets/images/badges/astar_logo.png" alt="A*STAR" class="exp-logo">
+                        <div>
+                            <strong>Research Intern</strong>
+                            <p>A*STAR Singapore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exp-block">
+                <h4 class="exp-cat">Previous Internships</h4>
+                <div class="exp-row">
+                    <span class="exp-period-col">Jun 2022 – Dec 2022</span>
+                    <div class="exp-details">
+                        <img src="assets/images/badges/coccoc_logo.png" alt="Cốc Cốc" class="exp-logo">
+                        <div>
+                            <strong>Data Scientist Intern</strong>
+                            <p>Cốc Cốc Browser &amp; Search Engine</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="exp-row">
+                    <span class="exp-period-col">Aug 2021 – Oct 2021</span>
+                    <div class="exp-details">
+                        <img src="assets/images/badges/fsoft_logo.png" alt="FPT Software" class="exp-logo">
+                        <div>
+                            <strong>Python Developer Intern</strong>
+                            <p>FPT Software</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Education ===== -->
+        <section id="education" class="swiss-section">
+            <div class="section-num">03</div>
+            <h2 class="section-heading">Education</h2>
+
+            <div class="exp-block">
+                <h4 class="exp-cat">Education</h4>
+                <div class="exp-row">
+                    <span class="exp-period-col">2020 – 2024</span>
+                    <div class="exp-details">
+                        <img src="assets/images/badges/VinUni_logo.png" alt="VinUniversity" class="exp-logo">
+                        <div>
+                            <strong>B.Sc. in Computer Science, AI Concentration</strong>
+                            <p>VinUniversity &mdash; College of Engineering and Computer Science</p>
+                            <p class="edu-extra">Minor in Finance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exp-block">
+                <h4 class="exp-cat">Honors &amp; Awards</h4>
+                <div class="awards-list">
+                    <div class="award-row">
+                        <span class="award-date">2024</span>
+                        <span>Singapore Pre-Graduate Award (SIPGA)</span>
+                    </div>
+                    <div class="award-row">
+                        <span class="award-date">2023</span>
+                        <span>US$2000 Undergraduate Research Award</span>
+                    </div>
+                    <div class="award-row">
+                        <span class="award-date">2022</span>
+                        <span>Dean's List Award</span>
+                    </div>
+                    <div class="award-row">
+                        <span class="award-date">2022</span>
+                        <span>Undergraduate Research Experience Award</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Records ===== -->
+        <section id="records" class="swiss-section">
+            <div class="section-num">04</div>
+            <h2 class="section-heading">Records</h2>
+
+            <div class="records-block">
+                <h4 class="exp-cat">I was accepted by</h4>
+                <div class="records-logos">
+                    <img src="assets/images/badges/tmlr_logo.jpg" alt="TMLR" title="TMLR (2025)" class="record-logo">
+                    <img src="assets/images/badges/tnnls_logo.jpg" alt="IEEE TNNLS" title="IEEE TNNLS (2025)" class="record-logo">
+                    <img src="assets/images/badges/coccoc_logo.png" alt="Cốc Cốc" title="Cốc Cốc (2024)" class="record-logo">
+                    <img src="assets/images/badges/astar_logo.png" alt="A*STAR Singapore" title="A*STAR Singapore (2024)" class="record-logo">
+                    <img src="assets/images/badges/uts_logo.png" alt="UTS" title="University of Technology Sydney (2024) — Accepted to MSc. Computer Science program" class="record-logo">
+                    <img src="assets/images/badges/ucsd_logo.png" alt="UCSD" title="University of California San Diego (2022) — Accepted to research program" class="record-logo">
+                    <img src="assets/images/badges/VinUni_logo.png" alt="VinUniversity" title="VinUniversity (2020)" class="record-logo">
+                </div>
+            </div>
+
+            <div class="records-block">
+                <h4 class="exp-cat">I was rejected by</h4>
+                <div class="records-logos">
+                    <img src="assets/images/badges/iros25_logo.png" alt="IROS" title="IROS (2025) — My paper TESGNN was borderline rejected" class="record-logo">
+                    <img src="assets/images/badges/CVPR_logo.png" alt="CVPR" title="CVPR (2025) — My paper TESGNN was borderline rejected" class="record-logo">
+                    <img src="assets/images/badges/logo_neurips.png" alt="NeurIPS" title="NeurIPS (2024) — My paper TESGNN was borderline rejected" class="record-logo">
+                    <img src="assets/images/badges/aws_logo.png" alt="AWS" title="AWS (2023) — I got into the final interview round for internship, but was rejected in the end" class="record-logo">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Contact ===== -->
+        <section id="contact" class="swiss-section">
+            <div class="section-num">05</div>
+            <h2 class="section-heading">Contact</h2>
+            <p>Feel free to reach out!</p>
+            <p class="contact-email"><a href="mailto:nguyentietnguyenkhoi@gmail.com">nguyentietnguyenkhoi@gmail.com</a></p>
+            <div class="contact-links">
+                <a href="https://scholar.google.com/citations?user=a-W86AcAAAAJ" target="_blank" class="contact-link-item">Google Scholar</a>
+                <a href="https://github.com/khointn" target="_blank" class="contact-link-item">GitHub</a>
+                <a href="https://www.linkedin.com/in/khointn" target="_blank" class="contact-link-item">LinkedIn</a>
+                <a href="https://drive.google.com/file/d/115ofv_wTR095e9c5Z6MJ0-7aFem5fuAU/view?usp=sharing" target="_blank" class="contact-link-item">Resume</a>
+            </div>
+        </section>
+
+        <footer class="swiss-footer">
+            <p>&copy; 2025 Nguyen Tiet Nguyen Khoi</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
