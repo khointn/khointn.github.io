@@ -468,7 +468,7 @@ strong { color: var(--accent); font-weight: 500; }
 
 .exp-row {
     display: flex;
-    gap: 24px;
+    gap: 32px;
     padding: 12px 0;
     border-bottom: 1px solid var(--bg-alt);
     font-size: 0.85rem;
