@@ -404,12 +404,9 @@ strong { color: var(--accent); font-weight: 500; }
     grid-template-columns: 60px 1fr auto;
     gap: 24px;
     padding: 20px 0;
-    border-bottom: 1px solid var(--bg-alt);
     align-items: start;
     transition: background 150ms;
 }
-
-[data-theme="dark"] .pub-row { border-bottom-color: #222; }
 
 .pub-row:hover { background: var(--bg-alt); margin: 0 -16px; padding: 20px 16px; }
 
@@ -462,15 +459,12 @@ strong { color: var(--accent); font-weight: 500; }
     display: flex;
     gap: 32px;
     padding: 12px 0;
-    border-bottom: 1px solid var(--bg-alt);
     font-size: 0.85rem;
 }
 
 .exp-row h4 + p {
     margin-bottom: 6px;
 }
-
-[data-theme="dark"] .exp-row { border-bottom-color: #222; }
 
 .exp-period-col {
     width: 135px;
@@ -531,12 +525,10 @@ strong { color: var(--accent); font-weight: 500; }
     display: flex;
     gap: 24px;
     padding: 10px 0;
-    border-bottom: 1px solid var(--bg-alt);
     font-size: 0.85rem;
     align-items: center;
 }
 
-[data-theme="dark"] .award-row { border-bottom-color: #222; }
 
 .award-date {
     min-width: 60px;
