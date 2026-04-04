@@ -215,7 +215,7 @@ strong { color: var(--accent); font-weight: 500; }
 
 .swiss-section {
     padding: 48px 0;
-    border-bottom: 1px solid var(--text-muted);
+    /* border-bottom: 1px solid var(--text-muted); */
     position: relative;
 }
 
@@ -565,8 +565,8 @@ strong { color: var(--accent); font-weight: 500; }
 
 .about-contact {
     margin-top: 32px;
-    padding-top: 24px;
-    border-top: 1px solid var(--bg-alt);
+    padding-top: 12px;
+    /* border-top: 1px solid var(--bg-alt); */
 }
 
 [data-theme="dark"] .about-contact { border-top-color: #222; }
