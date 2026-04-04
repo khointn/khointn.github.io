@@ -214,7 +214,7 @@ strong { color: var(--accent); font-weight: 500; }
 }
 
 .swiss-section {
-    padding: 48px 0;
+    padding: 32px 0;
     /* border-bottom: 1px solid var(--text-muted); */
     position: relative;
 }
@@ -306,9 +306,9 @@ strong { color: var(--accent); font-weight: 500; }
 }
 
 .hero-photo {
-    width: 200px;
-    height: 200px;
-    border: 2px solid var(--border);
+    width: 220px;
+    height: 280px;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -316,6 +316,7 @@ strong { color: var(--accent); font-weight: 500; }
     margin-bottom: 16px;
     flex-shrink: 0;
     overflow: hidden;
+    border-radius: 4px;
 }
 
 .hero-photo svg {
@@ -345,7 +346,7 @@ strong { color: var(--accent); font-weight: 500; }
 }
 
 .about-desc {
-    font-size: 0.95rem;
+    font-size: 0.82rem;
     line-height: 1.7;
     color: var(--text-dim);
 }
@@ -614,21 +615,17 @@ strong { color: var(--accent); font-weight: 500; }
 }
 
 .contact-link-item {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    padding: 8px 16px;
-    border: 1px solid #bbb;
-    color: var(--text-dim);
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    color: var(--text);
     text-decoration: none;
     transition: all 150ms;
     margin-top: 12px;
     display: inline-block;
-}
-
-[data-theme="dark"] .contact-link-item {
-    border-color: #555;
 }
 
 .contact-link-item:hover {
@@ -672,14 +669,14 @@ strong { color: var(--accent); font-weight: 500; }
     .pub-actions { margin-top: 8px; }
     .exp-row { flex-direction: column; gap: 4px; }
     .about-photo { position: relative; top: 0; right: 0; margin-bottom: 16px; }
-    .hero-photo { width: 150px; height: 150px; }
+    .hero-photo { width: 140px; height: 180px; }
     .about-positions { flex-direction: column; align-items: flex-start; gap: 4px; }
     .position-sep { display: none; }
 }
 
 @media (max-width: 768px) {
     .main-content { padding: 0 20px; padding-top: 72px; }
-    .swiss-section { padding: 48px 0; }
+    .swiss-section { padding: 24px 0; }
     .about-name { font-size: 2rem; }
     .section-num { font-size: 3rem; top: 30px; }
     .stat-big { font-size: 2rem; }
@@ -689,7 +686,7 @@ strong { color: var(--accent); font-weight: 500; }
 @media (max-width: 375px) {
     html { font-size: 16px; }
     .main-content { padding: 0 16px; padding-top: 64px; }
-    .swiss-section { padding: 24px 0; }
+    .swiss-section { padding: 16px 0; }
     .about-name { font-size: 1.8rem; }
     .section-num { font-size: 2.5rem; top: 20px; }
     .stat-big { font-size: 1.6rem; }
