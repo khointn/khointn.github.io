@@ -397,33 +397,20 @@ strong { color: var(--accent); font-weight: 500; }
 
 /* ---- Publications ---- */
 
-.pub-list { display: flex; flex-direction: column; }
-
-.pub-row {
-    display: grid;
-    grid-template-columns: 60px 1fr auto;
-    gap: 24px;
-    padding: 20px 0;
-    align-items: start;
-    transition: background 150ms;
+.pub-item {
+    padding: 10px 0;
+    font-size: 0.85rem;
 }
 
-.pub-row:hover { background: var(--bg-alt); margin: 0 -16px; padding: 20px 16px; }
-
-.pub-year-col {
-    font-size: 0.8rem;
-    font-weight: 700;
-    color: var(--text-muted);
-}
-
-.pub-info h4 { font-size: 0.9rem; font-weight: 700; margin-bottom: 4px; }
+.pub-item h4 { font-size: 0.85rem; font-weight: 700; margin-bottom: 4px; }
 .pub-authors { font-size: 0.8rem; color: var(--text-dim); }
 .pub-authors strong { color: var(--accent); }
-.pub-venue { font-size: 0.8rem; color: var(--text-dim); }
+.pub-venue { font-size: 0.8rem; color: var(--text-muted); font-style: italic; }
 
 .pub-actions {
     display: flex;
     gap: 8px;
+    margin-top: 6px;
 }
 
 .pub-actions a {
@@ -648,9 +635,6 @@ strong { color: var(--accent); font-weight: 500; }
     .about-layout { padding-right: 0; }
     .about-body { grid-template-columns: 1fr; gap: 24px; }
     .section-num { font-size: 4rem; }
-    .pub-row { grid-template-columns: 1fr; gap: 8px; }
-    .pub-year-col { font-size: 0.75rem; }
-    .pub-actions { margin-top: 8px; }
     .exp-row { flex-direction: column; gap: 4px; }
     .about-photo { position: relative; top: 0; right: 0; margin-bottom: 16px; }
     .hero-photo { width: 140px; height: 180px; }
