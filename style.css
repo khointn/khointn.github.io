@@ -434,7 +434,7 @@ strong { color: var(--accent); font-weight: 500; }
 .exp-block { margin-bottom: 12px; }
 
 .exp-cat {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.15em;
