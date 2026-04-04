@@ -477,18 +477,26 @@ strong { color: var(--accent); font-weight: 500; }
 [data-theme="dark"] .exp-row { border-bottom-color: #222; }
 
 .exp-period-col {
-    min-width: 140px;
+    width: 120px;
+    min-width: 120px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: center;
+    justify-content: flex-start;
     gap: 6px;
     flex-shrink: 0;
 }
 
+.exp-period-col .exp-logo {
+    display: block;
+}
+
 .exp-date {
+    display: block;
     color: var(--text-muted);
     font-size: 0.75rem;
     text-align: center;
+    width: 100%;
 }
 
 .exp-row p { color: var(--text-dim); font-size: 0.8rem; margin: 0; }
