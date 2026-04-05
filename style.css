@@ -637,7 +637,7 @@ strong { color: var(--accent); font-weight: 500; }
 @media (max-width: 900px) {
     .side-nav { display: none; }
     .mobile-nav { display: flex; }
-    .main-content { margin-left: 0; padding: 0 24px; padding-top: 72px; }
+    .main-content { margin-left: 0; padding: 0 24px; padding-top: 72px; max-width: 800px;}
     .about-name { font-size: 2.2rem; }
     .about-layout { padding-right: 0; }
     .about-body { grid-template-columns: 1fr; gap: 24px; }
