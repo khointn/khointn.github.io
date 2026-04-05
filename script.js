@@ -67,6 +67,16 @@ sideLinks.forEach(link => {
 // Update active link on scroll — picks the section whose top is closest above the viewport top
 const NAV_OFFSET = 80; // nav bar height + buffer
 function updateActiveLink() {
+    // If scrolled to the bottom, highlight the last section
+    const atBottom = (window.innerHeight + window.scrollY) >= (document.body.scrollHeight - 20);
+    if (atBottom && sections.length > 0) {
+        const lastSection = sections[sections.length - 1];
+        sideLinks.forEach(l => {
+            l.classList.toggle('active', l.getAttribute('href') === '#' + lastSection.id);
+        });
+        return;
+    }
+
     let current = '';
     sections.forEach(section => {
         const top = section.getBoundingClientRect().top;

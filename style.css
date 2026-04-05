@@ -640,8 +640,18 @@ strong { color: var(--accent); font-weight: 500; }
     .about-body { grid-template-columns: 1fr; gap: 24px; }
     .section-num { font-size: 3rem; top: 20px; }
     .swiss-section { padding: 12px 0; }
-    .exp-row { flex-direction: column; gap: 4px; }
-    .exp-period-col { width: auto; min-width: auto; align-items: flex-start; }
+    .exp-row { flex-direction: column; gap: 4px; max-width: 100%; }
+    .exp-period-col {
+        width: auto;
+        min-width: auto;
+        flex-direction: row !important;  /* logo and date side-by-side on mobile */
+        align-items: center;
+        gap: 8px;
+    }
+    .exp-date {
+        text-align: left;
+        width: auto;
+    }
     .about-photo { position: relative; top: 0; right: 0; margin-bottom: 16px; }
     .hero-photo { width: 140px; height: 180px; }
     .about-positions { flex-direction: column; align-items: flex-start; gap: 4px; }
