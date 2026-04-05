@@ -183,6 +183,8 @@ strong { color: var(--accent); font-weight: 500; }
 
 .mobile-theme-btn {
     margin-top: auto;
+    position: static;
+    align-self: flex-start;
 }
 
 /* ---- Main Content ---- */
@@ -200,6 +202,7 @@ strong { color: var(--accent); font-weight: 500; }
     position: relative;
     z-index: 0; /* creates stacking context so section-num z-index:-1 stays visible behind content */
     overflow: hidden; /* prevent section-num from causing horizontal scroll */
+    scroll-margin-top: 60px; /* offset for fixed nav bar so heading is visible after scroll */
 }
 
 .section-num {
@@ -433,9 +436,10 @@ strong { color: var(--accent); font-weight: 500; }
 
 .exp-row {
     display: flex;
-    gap: 32px;
+    gap: 24px;
     padding: 12px 0;
     font-size: 0.85rem;
+    max-width: 760px;
 }
 
 .exp-row > div:not(.exp-period-col) {
