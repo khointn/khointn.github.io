@@ -1,6 +1,6 @@
 /* ========================================
    Swiss Poster Theme
-   Left sidebar nav + giant typography
+   Top nav bar + centered content
    Inter (all weights)
    ======================================== */
 
@@ -12,7 +12,6 @@
     --text-muted: #999;
     --accent: #2563EB;
     --border: #000;
-    --sidebar-w: 200px;
     --font: 'Inter', sans-serif;
 }
 
@@ -41,6 +40,7 @@ body {
     color: var(--text);
     line-height: 1.5;
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
 
@@ -48,59 +48,57 @@ a { color: var(--text); text-decoration: none; }
 a:hover { color: var(--accent); }
 strong { color: var(--accent); font-weight: 500; }
 
-/* ---- Left Sidebar Navigation ---- */
+/* ---- Top Navigation Bar ---- */
 
 .side-nav {
     position: fixed;
-    top: 0; left: 0; bottom: 0;
-    width: var(--sidebar-w);
+    top: 0; left: 0; right: 0;
+    width: 100%;
+    height: 48px;
     background: var(--bg);
     display: flex;
-    flex-direction: column;
-    padding: 32px 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 32px;
     z-index: 100;
+    border-bottom: 1px solid var(--border);
 }
 
 .side-nav-links {
-    flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
     padding: 0;
 }
 
 .side-link {
-    display: block;
-    padding: 10px 24px;
-    font-size: 0.8rem;
+    display: inline-block;
+    padding: 13px 16px;
+    font-size: 0.7rem;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.1em;
     color: var(--text-muted);
-    border-left: 3px solid transparent;
+    border-bottom: 2px solid transparent;
     transition: all 150ms;
-}
-
-.side-link::before {
-    content: attr(data-num) '.';
-    display: inline-block;
-    width: 28px;
-    color: var(--text-muted);
-    font-weight: 400;
 }
 
 .side-link:hover,
 .side-link.active {
     color: var(--text);
-    border-left-color: var(--accent);
+    border-bottom-color: var(--accent);
 }
 
 .side-theme-btn {
-    margin: 0 24px;
+    position: absolute;
+    right: 32px;
     background: none;
     border: 2px solid var(--border);
     color: var(--text);
-    width: 40px; height: 40px;
-    font-size: 18px;
+    width: 32px; height: 32px;
+    font-size: 15px;
     cursor: pointer;
     transition: all 150ms;
 }
@@ -179,12 +177,6 @@ strong { color: var(--accent); font-weight: 500; }
     transition: color 150ms;
 }
 
-.mobile-link::before {
-    content: attr(data-num) '. ';
-    color: var(--text-muted);
-    font-weight: 400;
-}
-
 .mobile-link:hover {
     color: var(--text);
 }
@@ -196,15 +188,18 @@ strong { color: var(--accent); font-weight: 500; }
 /* ---- Main Content ---- */
 
 .main-content {
-    margin-left: var(--sidebar-w);
     flex: 1;
-    padding: 0 64px;
+    padding: 72px 48px 32px;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .swiss-section {
     padding: 16px 0;
-    /* border-bottom: 1px solid var(--text-muted); */
     position: relative;
+    z-index: 0; /* creates stacking context so section-num z-index:-1 stays visible behind content */
+    overflow: hidden; /* prevent section-num from causing horizontal scroll */
 }
 
 .section-num {
@@ -243,7 +238,7 @@ strong { color: var(--accent); font-weight: 500; }
     gap: 20px;
     position: relative;
     z-index: 1;
-    padding-right: 260px;
+    padding-right: 240px;
 }
 
 .about-meta {
@@ -262,12 +257,6 @@ strong { color: var(--accent); font-weight: 500; }
     grid-template-columns: 1fr;
     gap: 48px;
     align-items: start;
-}
-
-.about-stats {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
 .about-name {
@@ -449,6 +438,11 @@ strong { color: var(--accent); font-weight: 500; }
     font-size: 0.85rem;
 }
 
+.exp-row > div:not(.exp-period-col) {
+    flex: 1;
+    min-width: 0; /* prevents long text from overflowing the flex container */
+}
+
 .exp-row h4 + p {
     margin-bottom: 6px;
 }
@@ -522,7 +516,6 @@ strong { color: var(--accent); font-weight: 500; }
     font-size: 0.85rem;
     align-items: center;
 }
-
 
 .award-date {
     min-width: 60px;
@@ -634,39 +627,32 @@ strong { color: var(--accent); font-weight: 500; }
 
 /* ---- Responsive ---- */
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .side-nav { display: none; }
     .mobile-nav { display: flex; }
-    .main-content { margin-left: 0; padding: 0 24px; padding-top: 72px; }
-    .about-name { font-size: 2.2rem; }
+    .main-content { padding: 76px 20px 24px; }
+    .about-name { font-size: 2rem; }
     .about-layout { padding-right: 0; }
     .about-body { grid-template-columns: 1fr; gap: 24px; }
-    .section-num { font-size: 4rem; }
+    .section-num { font-size: 3rem; top: 20px; }
+    .swiss-section { padding: 12px 0; }
     .exp-row { flex-direction: column; gap: 4px; }
+    .exp-period-col { width: auto; min-width: auto; align-items: flex-start; }
     .about-photo { position: relative; top: 0; right: 0; margin-bottom: 16px; }
     .hero-photo { width: 140px; height: 180px; }
     .about-positions { flex-direction: column; align-items: flex-start; gap: 4px; }
     .position-sep { display: none; }
 }
 
-@media (max-width: 768px) {
-    .main-content { padding: 0 20px; padding-top: 72px; }
-    .swiss-section { padding: 12px 0; }
-    .about-name { font-size: 2rem; }
-    .section-num { font-size: 3rem; top: 30px; }
-    .stat-big { font-size: 2rem; }
-    .about-stats { gap: 24px; }
-}
-
 @media (max-width: 375px) {
     html { font-size: 16px; }
-    .main-content { padding: 0 16px; padding-top: 64px; }
+    .main-content { padding: 72px 16px 20px; }
     .swiss-section { padding: 8px 0; }
     .about-name { font-size: 1.8rem; }
-    .section-num { font-size: 2.5rem; top: 20px; }
+    .section-num { font-size: 2.5rem; top: 16px; }
     .stat-big { font-size: 1.6rem; }
     .about-stats { flex-direction: column; gap: 16px; }
-    .pub-row, .exp-row, .award-row { padding: 12px 0; }
+    .exp-row, .award-row { padding: 10px 0; }
 }
 
 /* ---- Focus Styles ---- */
