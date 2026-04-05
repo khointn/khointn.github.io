@@ -64,19 +64,25 @@ sideLinks.forEach(link => {
     });
 });
 
-// Update active link on scroll
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            const id = entry.target.id;
-            sideLinks.forEach(l => {
-                l.classList.toggle('active', l.getAttribute('href') === '#' + id);
-            });
+// Update active link on scroll — picks the section whose top is closest above the viewport top
+const NAV_OFFSET = 80; // nav bar height + buffer
+function updateActiveLink() {
+    let current = '';
+    sections.forEach(section => {
+        const top = section.getBoundingClientRect().top;
+        if (top <= NAV_OFFSET) {
+            current = section.id;
         }
     });
-}, { threshold: 0.3 });
+    if (current) {
+        sideLinks.forEach(l => {
+            l.classList.toggle('active', l.getAttribute('href') === '#' + current);
+        });
+    }
+}
 
-sections.forEach(s => observer.observe(s));
+window.addEventListener('scroll', updateActiveLink, { passive: true });
+updateActiveLink();
 
 // Smooth scroll for all anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
