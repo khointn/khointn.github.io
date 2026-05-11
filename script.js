@@ -52,12 +52,16 @@ document.querySelectorAll('.mobile-link').forEach(link => {
 
 // Sidebar active link tracking
 const sideLinks = document.querySelectorAll('.side-link');
+const hashSideLinks = Array.from(sideLinks).filter(link => {
+    const href = link.getAttribute('href');
+    return href && href.startsWith('#');
+});
 const sections = document.querySelectorAll('.swiss-section');
 
-sideLinks.forEach(link => {
+hashSideLinks.forEach(link => {
     link.addEventListener('click', (e) => {
         e.preventDefault();
-        sideLinks.forEach(l => l.classList.remove('active'));
+        hashSideLinks.forEach(l => l.classList.remove('active'));
         link.classList.add('active');
         const target = document.querySelector(link.getAttribute('href'));
         if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -67,11 +71,13 @@ sideLinks.forEach(link => {
 // Update active link on scroll — picks the section whose top is closest above the viewport top
 const NAV_OFFSET = 80; // nav bar height + buffer
 function updateActiveLink() {
+    if (hashSideLinks.length === 0) return;
+
     // If scrolled to the bottom, highlight the last section
     const atBottom = (window.innerHeight + window.scrollY) >= (document.body.scrollHeight - 20);
     if (atBottom && sections.length > 0) {
         const lastSection = sections[sections.length - 1];
-        sideLinks.forEach(l => {
+        hashSideLinks.forEach(l => {
             l.classList.toggle('active', l.getAttribute('href') === '#' + lastSection.id);
         });
         return;
@@ -85,7 +91,7 @@ function updateActiveLink() {
         }
     });
     if (current) {
-        sideLinks.forEach(l => {
+        hashSideLinks.forEach(l => {
             l.classList.toggle('active', l.getAttribute('href') === '#' + current);
         });
     }
