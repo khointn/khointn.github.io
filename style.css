@@ -451,6 +451,10 @@ strong { color: var(--accent); font-weight: 500; }
     margin-bottom: 6px;
 }
 
+#extracurricular .exp-row h4 + p {
+    margin-bottom: 0;
+}
+
 .exp-period-col {
     width: 135px;
     min-width: 135px;
